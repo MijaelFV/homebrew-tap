@@ -6,8 +6,8 @@
 #
 # The app's scripts/release.sh updates `version` and `sha256` for each release.
 cask "ytmusicfast" do
-  version "0.1.1"
-  sha256 "000849ce83cd3819111301b5d19844a748573bad66ab2564ecf537b0af48452e"
+  version "0.1.2"
+  sha256 "09ded347931c3dd7976d425d9f0b454a87d7e6e2bf30fa6487766ee14994afac"
 
   url "https://github.com/MijaelFV/YTMusicfast/releases/download/v#{version}/YTMusicfast-#{version}.dmg"
   name "YT Musicfast"
