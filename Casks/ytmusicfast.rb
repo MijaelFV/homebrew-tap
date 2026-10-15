@@ -14,7 +14,7 @@ cask "ytmusicfast" do
 
   # The app updates itself (Sparkle).
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "YT Musicfast.app"
   binary "#{appdir}/YT Musicfast.app/Contents/Helpers/ytmusicfast"
