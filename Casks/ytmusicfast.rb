@@ -1,6 +1,8 @@
 # Homebrew cask for YT Musicfast (https://github.com/MijaelFV/YTMusicfast).
 #
-#   brew install --cask mijaelfv/tap/ytmusicfast
+#   brew tap mijaelfv/tap
+#   brew trust --cask mijaelfv/tap/ytmusicfast   # Homebrew 7 and later
+#   brew install --cask ytmusicfast
 #
 # The app's scripts/release.sh updates `version` and `sha256` for each release.
 cask "ytmusicfast" do
